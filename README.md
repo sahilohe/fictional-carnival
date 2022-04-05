@@ -30,4 +30,4 @@
 12. Now copy that newly created address and paste it in the `lib.rs`and `Anchor.toml` file. You know where to put them.
 
 13. Now time to make some changes in order to get deployed on the devnet. Firstly, we need to change the provider to devnet. Type 
-    `solana config set --url devnet` and change the `[programs.localhost]` to `[programs.devnet]` and `cluster = "localhost"` to `cluster = "devnet"`.
+    `solana config set --url devnet` and change the `[programs.localhost]` to `[programs.devnet]` and `cluster = "localhost"` to `cluster = "devnet"` in the `Anchor.toml` file.
