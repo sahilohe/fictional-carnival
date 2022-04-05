@@ -28,4 +28,6 @@
 11. If we are getting the desired output after testing, we are all good! Now if everything went as it should, we should see a new  `myepicproject-keypair.json` created       for us. To check the address of the keypair, type `solana address -k target/deploy/myepicproject-keypair.json`. you should see a new programID/address now!
 
 12. Now copy that newly created address and paste it in the `lib.rs`and `Anchor.toml` file. You know where to put them.
-13. Now time to make some changes in order to get deployed on the devnet. Firstly, we need to change the provider to devnet. Type `solana config set --url devnet` and change the `[programs.localhost]` to `[programs.devnet]` and `cluster = "localhost"` to `cluster = "devnet"`.
+
+13. Now time to make some changes in order to get deployed on the devnet. Firstly, we need to change the provider to devnet. Type 
+    `solana config set --url devnet` and change the `[programs.localhost]` to `[programs.devnet]` and `cluster = "localhost"` to `cluster = "devnet"`.
