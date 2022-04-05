@@ -31,3 +31,5 @@
 
 13. Now time to make some changes in order to get deployed on the devnet. Firstly, we need to change the provider to devnet. Type 
     `solana config set --url devnet` and change the `[programs.localhost]` to `[programs.devnet]` and `cluster = "localhost"` to `cluster = "devnet"` in the `Anchor.toml` file.
+    
+14. now type `anchor build`! if we got everything correctly, we should see no errors!! If we are good, then hope for the best ahead, cause we are now heading to deploy our program to the devnet!!!
