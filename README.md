@@ -21,4 +21,4 @@
 
 8. we need a new keypair file in the deploy/target folder so that we get a programID for our lib.rs file to be deployed on the devent. for that make sure we are in `myepicproject` folder. We need to make changes in two of the files, named `lib.rs` (location - `programs/src/lib.rs`) and ``Anchor.toml``
 
-9. Now go to `lib.rs` file and change the declare_id("SOME ID") to this `declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");`
+9. Oe just copy and paste the files I have provided to get easy with time.
