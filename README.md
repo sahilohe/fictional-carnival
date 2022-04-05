@@ -1,6 +1,6 @@
 # fictional-carnival
 
-## We need to reset the keypairs and create a new one for the ProgramID
+## Generating new programID for our Program
 
 1. `rm $HOME/.config/solana/id.json` - This will remove the Solana CLI wallet
 
