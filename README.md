@@ -19,4 +19,4 @@
 
 7. `solana airdrop 2` to get some fake SOL. Enter this command as many times as you want
 
-8. we need a new keypair file in the deploy/target folder so that we get a programID for our lib.rs file to be deployed on the devent.
+8. we need a new keypair file in the deploy/target folder so that we get a programID for our lib.rs file to be deployed on the devent. for that make sure we are in `myepicproject` folder. We need to make changes in two of the files, named `lib.rs` (location - `programs/src/lib.rs`) and ``Anchor.toml``
