@@ -1,5 +1,7 @@
 # fictional-carnival - just a random name provided by Github
 
+### Reminder that this technique of creating a new programID worked for me when I got the same error as now you are getting! If it doesn't work for you, do ask for help on Discord or keep trying!
+
 ## Generating new programID for our Program
 
 1. `rm $HOME/.config/solana/id.json` - This will remove the Solana CLI wallet
@@ -33,3 +35,4 @@
     `solana config set --url devnet` and change the `[programs.localhost]` to `[programs.devnet]` and `cluster = "localhost"` to `cluster = "devnet"` in the `Anchor.toml` file.
     
 14. now type `anchor build`! if we got everything correctly, we should see no errors!! If we are good, then hope for the best ahead, cause we are now heading to deploy our program to the devnet!!!
+15. Fingers crossed! type `anchor deploy` and now we wait! If we are all sure about every step we followed, we must see a Deploy success message on our terminal. And there you go, we succesfully deployed our program to the devnet and we are good to go on the next part of the project.
