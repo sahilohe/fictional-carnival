@@ -1,4 +1,4 @@
-# fictional-carnival
+# fictional-carnival - just a random name provided by Github
 
 ## Generating new programID for our Program
 
@@ -23,4 +23,6 @@
 
 9. copy and paste the files I have provided in their desired location. This files are the original files we get before building, deploying that stuff!!
 
-10.
+10. `solana config get` and make sure we are on localhost. Now type `anchor test`, just to check that our program is working and we are getting the correct output.
+
+11. If we are getting the desired output after testing, we are all good!
